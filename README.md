@@ -14,3 +14,5 @@ Measurement: nping (Nmap Network Tool)
 Data Analysis: Pandas & Plotly
 
 Infrastructure as Code: Terraform (used for standardized deployment)
+
+<img width="1250" height="827" alt="image" src="https://github.com/user-attachments/assets/a37fba84-1cff-457f-911a-f6ae48d9d339" />
