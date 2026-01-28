@@ -13,10 +13,10 @@ data "aws_subnets" "default" {
     values = [data.aws_vpc.default.id]
   }
 
-  # My AMI does not exist in us-east-1e, so we exclude that AZ
+  # AMI does not exist in us-east-1e, so we exclude that AZ
   filter {
     name   = "availability-zone"
-    # We list every AZ EXCEPT us-east-1e
+    # List every AZ EXCEPT us-east-1e
     values = ["us-east-1a", "us-east-1b", "us-east-1c", "us-east-1d", "us-east-1f"]
   }
 }
